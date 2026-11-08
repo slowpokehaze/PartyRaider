@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PartyRaiderSettings>
+  <!--true = follow the group leader, false = follow the main tank-->
+  <FollowLeader>True</FollowLeader>
+  <!--Yards to keep from the follow target before stopping-->
+  <FollowDistance>5</FollowDistance>
+  <!--Allow ground/flying mounts to keep up with the target-->
+  <UseMounts>True</UseMounts>
+  <!--Hold position (do not follow) while you are in combat-->
+  <StopInCombat>False</StopInCombat>
+  <!--Step off the mount once stopped within range (follow mode)-->
+  <DismountWhenClose>False</DismountWhenClose>
+  <!--Attack the enemies that are attacking the follow target (backup tank)-->
+  <DefendLeader>True</DefendLeader>
+  <!--Yards around the follow target to look for attackers-->
+  <DefendRadius>20</DefendRadius>
+  <!--Legacy / unused — DEFEND mode now runs the character's own combat routine (by talents) instead of a fixed spell-->
+  <DefendSpell>Hand of Reckoning</DefendSpell>
+  <!--Follow this exact character name instead of the leader/tank. Works for ANY player in the world — a party member or one NOT in the party (empty = leader/tank mode). E.g. Pipyau-->
+  <FollowTarget>Курапланыч</FollowTarget>
+</PartyRaiderSettings>
